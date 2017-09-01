@@ -9,9 +9,14 @@
 
 		<h1>Route Routing</h1>
 		<ul class="links-ul">
-			<li><a href="">Route 66</a></li>
-			<li><a href="">Pacific Coast Highway</a></li>
+			<li><a ng-href="#!/">Home</a></li>
+			<li><a ng-href="#!/hwy1">Route 66</a></li>
+			<li><a ng-href="#!/hwy2">Pacific Coast Highway</a></li>
 		</ul>
+
+		<div class="output-div" ng-view>
+			
+		</div>
 
 
 		<script type="text/javascript" src="lib/node_modules/angular/angular.min.js"></script>
