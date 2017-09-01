@@ -23,3 +23,12 @@ h1 {
 .links-ul a:active {
 	color:#ffff69;
 }
+
+.output-div {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+.output-div p {
+	font-size: 1.3em;
+}

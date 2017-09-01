@@ -10,11 +10,11 @@ app.config(function($routeProvider) {
 		templateUrl: 'partials/welcome.html'
 	}).
 	when('/hwy1', {
-		templateUrl: 'partials/hwy1.html',
+		templateUrl: 'partials/hwy.html',
 		controller: 'HighwayOneCtrl'
 	}).
 	when('/hwy2', {
-		templateUrl: 'partials/hwy2.html',
+		templateUrl: 'partials/hwy.html',
 		controller: 'HighwayTwoCtrl'
 	}).
 	otherwise('/');
